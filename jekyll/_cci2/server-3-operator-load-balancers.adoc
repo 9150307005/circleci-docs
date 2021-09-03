@@ -1,4 +1,50 @@
----
+---SUCCESS
+
+Finished:37 min ago (05:25)
+
+Previous:9043
+
+Parallelism:1x out of 0x
+
+Queued:00:00 waiting + 00:05 in queue
+
+Resources:
+
+2CPU/4096MB
+
+Workflow:build_and_test
+
+Context:
+
+N/A
+
+Triggered by:Marty Alcala (pushed 971a9ea)
+
+PR:#10011
+
+COMMITS (1)
+
+Marty Alcala971a9eafix prettier
+
+Test Summary
+
+Configuration
+
+Timing
+
+Parameters
+
+Set Up Test Summary
+
+Show containers:All (1)Successful (1)Failed (0)
+
+0Add Containers +
+
+TEST
+
+Spin up Environment00:27
+
+Build-agent version 1.0.12069-0bafdb01 (2019-07-05T21:14:34+0000) Docker Engine Version: 18.09.6 Kernel Version: Linux d5b7d3b41193 4.15.0-1035-aws #37-Ubuntu SMP Mon Mar 18 16:15:14 UTC 2019 x86_64 Linux Starting container circleci/node@sha256:a6f4dfaae4e22f99d3910902362db706f32e0dbca7ce5ef757823d93fef1740e image cache not found on this host, downloading circleci/node@sha256:a6f4dfaae4e22f99d3910902362db706f32e0dbca7ce5ef757823d93fef1740e sha256:a6f4dfaae4e22f99d3910902362db706f32e0dbca7ce5ef757823d93fef1740e: Pulling from circleci/node f2b6b4884fc8: Already exists 4fb899b4df21: Already exists 74eaa8be7221: Already exists 2d6e98fe4040: Already exists 452c06dec5fa: Already exists 7b3c215894de: Already exists a5063278fd4d: Pulling fs layer 685e0be9c67c: Pulling fs layer 6558e317127e: Pulling fs layer 4fa7e4cb1af8: Pulling fs layer d087fe6ebdc2: Pulling fs layer 2c3814275bc1: Pulling fs layer c2f4e77f360d: Pulling fs layer 1f6f7e80b97a: Pulling fs layer ab1af6073633: Pulling fs layer 3884c1d20cbe: Pulling fs layer f18ab9c91ec4: Pulling fs layer 912d0c4956da: Pulling fs layer 2c3814275bc1: Waiting d087fe6ebdc2: Waiting f038173162b3: Pulling fs layer f51af75beea6: Pulling fs layer 6882fadcf7e5: Pulling fs layer 6dd7d6ed50d6: Pulling fs layer 4fa7e4cb1af8: Waiting c2f4e77f360d: Waiting 3884c1d20cbe: Waiting f18ab9c91ec4: Waiting 912d0c4956da: Waiting 1f6f7e80b97a: Waiting f51af75beea6: Waiting ab1af6073633: Waiting f038173162b3: Waiting 6dd7d6ed50d6: Waiting 6882fadcf7e5: Waiting 6558e317127e: Download complete 685e0be9c67c: Verifying Checksum 685e0be9c67c: Download complete d087fe6ebdc2: Verifying Checksum d087fe6ebdc2: Download complete 2c3814275bc1: Verifying Checksum 2c3814275bc1: Download complete a5063278fd4d: Verifying Checksum a5063278fd4d: Download complete 1f6f7e80b97a: Verifying Checksum 1f6f7e80b97a: Download complete ab1af6073633: Verifying Checksum ab1af6073633: Download complete 4fa7e4cb1af8: Verifying Checksum 4fa7e4cb1af8: Download complete 3884c1d20cbe: Verifying Checksum 3884c1d20cbe: Download complete c2f4e77f360d: Verifying Checksum c2f4e77f360d: Download complete 912d0c4956da: Verifying Checksum 912d0c4956da: Download complete f038173162b3: Verifying Checksum f038173162b3: Download complete 6882fadcf7e5: Verifying Checksum 6882fadcf7e5: Download complete 6dd7d6ed50d6: Download complete f51af75beea6: Verifying Checksum f51af75beea6: Download complete a5063278fd4d: Pull complete f18ab9c91ec4: Verifying Checksum f18ab9c91ec4: Download complete 685e0be9c67c: Pull complete 6558e317127e: Pull complete 4fa7e4cb1af8: Pull complete d087fe6ebdc2: Pull complete 2c3814275bc1: Pull complete c2f4e77f360d: Pull complete 1f6f7e80b97a: Pull complete ab1af6073633: Pull complete 3884c1d20cbe: Pull complete f18ab9c91ec4: Pull complete 912d0c4956da: Pull complete f038173162b3: Pull complete f51af75beea6: Pull complete 6882fadcf7e5: Pull complete 6dd7d6ed50d6: Pull complete Digest: sha256:a6f4dfaae4e22f99d3910902362db706f32e0dbca7ce5ef757823d93fef1740e Status: Downloaded newer image for circleci/node@sha256:a6f4dfaae4e22f99d3910902362db706f32e0dbca7ce5ef757823d93fef1740e using image circleci/node@sha256:a6f4dfaae4e22f99d3910902362db706f32e0dbca7ce5ef757823d93fef1740e Using build environment variables BASH_ENV=/tmp/.bash_env-5d378a497029a04a6a1962c8-0-build CI=true CIRCLECI=true CIRCLE_BRANCH=pull/10011 CIRCLE_BUILD_NUM=9044 CIRCLE_BUILD_URL=https://circleci.com/gh/bitpay/copay/9044 CIRCLE_COMPARE_URL= CIRCLE_JOB=bitpay CIRCLE_NODE_INDEX=0 CIRCLE_NODE_TOTAL=1 CIRCLE_PREVIOUS_BUILD_NUM=9043 CIRCLE_PROJECT_REPONAME=copay CIRCLE_PROJECT_USERNAME=bitpay CIRCLE_PR_NUMBER=10011 CIRCLE_PR
 version:
 - Server v3.x
 - Server Admin
